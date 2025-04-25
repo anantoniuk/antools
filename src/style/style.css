@@ -1,0 +1,144 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+:root {
+  /* font */
+  --textPrimary: "Poppins", sans-serif;
+  --textForSection5: "Roboto", sans-serif;
+  /* color */
+  --colorTextPrimary: rgba(255, 255, 255, 0.549);
+  --colorSecondText: rgba(255, 255, 255, 0.902);
+  --colorTitle: rgba(255, 255, 255, 0.78);
+  --colorTextLink: #ffffff;
+  --colorAccent: #ff6e30;
+  --colorSubtitle: #ffa5378c;
+  --backgroundColor: #283036;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~global~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+  background-color: var(--backgroundColor);
+  font-family: var(--textPrimary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--colorTextPrimary);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.logo {
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--colorSecondText);
+}
+.action-link {
+  font-weight: 600;
+  color: var(--colorTitle);
+}
+.action-button {
+  font-weight: 600;
+  color: var(--colorTextLink);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.hero-title {
+  font-size: 50px;
+  line-height: 1.4;
+  color: var(--colorSecondText);
+}
+.point {
+  color: var(--colorAccent);
+}
+.hero-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.hero-button {
+  font-weight: 600;
+  color: var(--colorTextLink);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.tools-title {
+  font-size: 48px;
+  line-height: 1.3;
+  color: var(--colorSecondText);
+}
+.tools-subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+}
+.app-title {
+  font-size: 24px;
+  color: var(--colorTitle);
+}
+.app-subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--colorSubtitle);
+}
+.app-text {
+  font-weight: 400;
+  line-height: 1.87;
+}
+.app-link {
+  font-weight: 600;
+}
+.tools-link {
+  font-size: 20px;
+  color: var(--colorAccent);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.brand-text {
+  font-size: 24px;
+  color: var(--colorSecondText);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.new-tools-title {
+  font-size: 48px;
+  line-height: 1.3;
+  color: var(--colorSecondText);
+}
+.new-tools-text {
+  font-size: 18px;
+  line-height: 1.7;
+}
+.new-tools-button {
+  font-size: 18px;
+  color: var(--colorTextLink);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.manager-text {
+  font-family: var(--textForSection5);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.1;
+  color: var(--colorTitle);
+  letter-spacing: 0.01em;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.registration-title {
+  font-size: 48px;
+  line-height: 1.3;
+  color: var(--colorSecondText);
+}
+.registration-subtitle {
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+}
+.registration-button {
+  font-weight: 600;
+  color: var(--colorTextLink);
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.footer-info-copyright {
+  color: var(--colorSecondText);
+}
+.footer-info-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.contact,
+.categories,
+.company {
+  font-size: 20px;
+  color: var(--colorSecondText);
+}

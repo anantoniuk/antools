@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <!-- modern normalize -->
     <link
       rel="stylesheet"
@@ -37,7 +43,7 @@
         <ul class="action-list">
           <li class="action-item"><a class="action-link" href="#">Login</a></li>
           <li class="action-item">
-            <a class="action-link" href="#">Sign Up</a>
+            <a class="action-button" href="#">Sign Up</a>
           </li>
         </ul>
       </div>
@@ -47,7 +53,7 @@
       <section class="hero">
         <div class="hero-body">
           <h1 class="hero-title">
-            Awesome tools for Designer & Developer<span>.</span>
+            Awesome tools for Designer & Developer<span class="point">.</span>
           </h1>
           <p class="hero-subtitle">
             Antool is a web collection of information on paid or free Design and
@@ -109,9 +115,16 @@
         </div>
         <div class="gallery-meta">
           <ul class="gallery-list">
+            <!-- 1 -->
             <li class="gallery-item">
-              <!-- 1 -->
               <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/figma.svg"
+                    alt="figma"
+                  />
+                </div>
                 <div class="app-name">
                   <h3 class="app-title">FIGMA</h3>
                   <p class="app-subtitle">Free</p>
@@ -122,25 +135,204 @@
                 <div class="app-content">
                   <ul class="app-content-list">
                     <li class="app-content-item">
-                      <input type="checkbox" />
+                      <input class="app-heart" type="checkbox" />
                     </li>
                     <li class="app-content-item">
                       <a href="#"
-                        ><img src="./src/images/folder-add.svg" alt=""
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
                       /></a>
                     </li>
                   </ul>
-                  <a href="#">Visit</a>
+                  <a class="app-link" href="#">Visit</a>
                 </div>
               </article>
             </li>
             <!-- 2 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/sketch.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Sketch</h3>
+                  <p class="app-subtitle">Trial & Paid</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 3 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/visual-studio-code.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Visual Studio Code</h3>
+                  <p class="app-subtitle">Free</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 4 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/notion.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Notion</h3>
+                  <p class="app-subtitle">Trial & Paid</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 5 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/slack.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Slack</h3>
+                  <p class="app-subtitle">Trial & Paid</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 6 -->
-            <a href="#">Load more</a>
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/invision.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Invision</h3>
+                  <p class="app-subtitle">Trial & Paid</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
           </ul>
+          <a class="tools-link" href="#">Load more</a>
         </div>
       </section>
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -194,12 +386,19 @@
         </div>
         <div class="gallery-meta">
           <ul class="gallery-list">
+            <!-- 1 -->
             <li class="gallery-item">
-              <!-- 1 -->
               <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/zeplin.svg"
+                    alt="figma"
+                  />
+                </div>
                 <div class="app-name">
                   <h3 class="app-title">Zeplin</h3>
-                  <p class="app-subtitle">Free & Paid</p>
+                  <p class="app-subtitle">Trial & Paid</p>
                 </div>
                 <p class="app-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -207,21 +406,130 @@
                 <div class="app-content">
                   <ul class="app-content-list">
                     <li class="app-content-item">
-                      <input type="checkbox" />
+                      <input class="app-heart" type="checkbox" />
                     </li>
                     <li class="app-content-item">
                       <a href="#"
-                        ><img src="./src/images/folder-add.svg" alt=""
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
                       /></a>
                     </li>
                   </ul>
-                  <a href="#">Visit</a>
+                  <a class="app-link" href="#">Visit</a>
                 </div>
               </article>
             </li>
             <!-- 2 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/phpstorm.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">PHPStorm</h3>
+                  <p class="app-subtitle">Free</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 3 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/toolbox.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Toolbox</h3>
+                  <p class="app-subtitle">Free</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
             <!-- 4 -->
+            <li class="gallery-item">
+              <article class="app">
+                <div class="app-photo">
+                  <img
+                    class="app-img"
+                    src="./src/images/procreate.svg"
+                    alt="figma"
+                  />
+                </div>
+                <div class="app-name">
+                  <h3 class="app-title">Procreate</h3>
+                  <p class="app-subtitle">Free</p>
+                </div>
+                <p class="app-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+                <div class="app-content">
+                  <ul class="app-content-list">
+                    <li class="app-content-item">
+                      <input class="app-heart" type="checkbox" />
+                    </li>
+                    <li class="app-content-item">
+                      <a href="#"
+                        ><img
+                          class="app-folder"
+                          title="Add to folder"
+                          src="./src/images/folder-add.svg"
+                          alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                  <a class="app-link" href="#">Visit</a>
+                </div>
+              </article>
+            </li>
           </ul>
         </div>
       </section>
