@@ -1,9 +1,6 @@
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~change~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 :root {
-  /* font */
   --textPrimary: "Poppins", sans-serif;
   --textForSection5: "Roboto", sans-serif;
-  /* color */
   --colorTextPrimary: rgba(255, 255, 255, 0.55);
   --colorSecondText: rgba(255, 255, 255, 0.9);
   --colorTitle: rgba(255, 255, 255, 0.78);
@@ -14,7 +11,6 @@
   --backgroundColorSecond: #283036;
   --colorBorder: rgba(255, 255, 255, 0.1);
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~global~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 body {
   background-color: var(--backgroundColor);
   font-family: var(--textPrimary);
@@ -29,7 +25,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .header {
   padding-top: 26px;
 }
@@ -46,7 +41,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding-top: 26px; */
 }
 .nav-list {
   display: flex;
@@ -104,7 +98,6 @@ body {
   color: var(--colorAccent);
   outline: 1px solid var(--colorAccent);
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-1~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .hero {
   background-image: url(../images/illustration.svg);
   background-repeat: no-repeat;
@@ -114,7 +107,6 @@ body {
 .hero-body {
   display: flex;
   flex-direction: column;
-  /* gap: 60px; */
 }
 .hero-content {
   display: flex;
@@ -137,7 +129,6 @@ body {
   max-width: 487px;
   margin-bottom: 60px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .hero-form {
   display: flex;
   align-items: center;
@@ -175,7 +166,6 @@ body {
   background-size: contain;
   background-position: center;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .hero-button {
   font-weight: 600;
   color: var(--colorTextLink);
@@ -198,7 +188,6 @@ body {
 .social-networks-item:hover {
   opacity: 0.6;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .tools {
   padding-top: 200px;
 }
@@ -247,9 +236,7 @@ body {
   background-color: var(--backgroundColor);
   padding: 33px;
   border-radius: 15px;
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   transition: transform 0.5s ease-in;
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 }
 .app:hover {
   transform: translateY(-20px);
@@ -359,7 +346,6 @@ body {
   outline: 1px solid transparent;
   color: var(--backgroundColor);
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .brand {
   padding: 212px 0 188px;
 }
@@ -394,7 +380,6 @@ body {
 .brand-link:hover {
   opacity: 0.5;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-4~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .new-tools-container {
   display: flex;
   justify-content: space-between;
@@ -447,7 +432,6 @@ body {
 .new-app {
   padding: 28px 22px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-5~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .manager {
   padding: 200px 0 250px;
 }
@@ -465,13 +449,11 @@ body {
   color: var(--colorTitle);
   letter-spacing: 0.015em;
   max-width: 393px;
-  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
   background-image: url(../images/dacration.svg);
   padding: 48px 0 0 49px;
   background-repeat: no-repeat;
   background-position: left top;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-6~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .registration {
   padding: 250px 0 240px;
 }
@@ -498,7 +480,6 @@ body {
   text-align: center;
   max-width: 427px;
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .registration-form {
   display: flex;
   align-items: center;
@@ -531,8 +512,6 @@ body {
   outline: 1px solid var(--colorAccent);
   color: var(--colorAccent);
 }
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .footer {
   padding: 70px 0 98px;
   border-top: 0.5px solid rgba(255, 255, 255, 0.15);
