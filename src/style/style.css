@@ -33,7 +33,7 @@ body {
   font-size: 22px;
   color: var(--colorSecondText);
 }
-.logo-content {
+.logo-link {
   display: flex;
   gap: 21px;
 }
@@ -455,7 +455,7 @@ body {
   background-position: left top;
 }
 .registration {
-  padding: 250px 0 240px;
+  padding: 0 0 240px;
 }
 .registration-container {
   display: flex;
@@ -499,6 +499,9 @@ body {
   flex-grow: 1;
   outline: none;
 }
+.registration-input:focus {
+  color: var(--colorTextLink);
+}
 .registration-button {
   font-weight: 600;
   color: var(--colorTextLink);
@@ -525,7 +528,7 @@ body {
   flex-direction: column;
   gap: 25px;
 }
-.logo-content-orange {
+.logo-link-orange {
   display: flex;
   gap: 12px;
   align-items: center;
