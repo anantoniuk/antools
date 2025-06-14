@@ -94,31 +94,34 @@
                   <a
                     class="social-networks-link"
                     href="https://uk-ua.facebook.com/login/device-based/regular/login/?login_attempt=1"
-                    ><img
-                      class="social-networks-img"
-                      src="./src/images/facebook.svg"
-                      alt="facebook"
-                  /></a>
+                    ><svg class="social-networks-icon">
+                      <use
+                        href="./src/images/social-networks.svg#icon-facebook"
+                      />
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-networks-item">
                   <a
                     class="social-networks-link"
                     href="https://www.instagram.com/"
-                    ><img
-                      class="social-networks-img"
-                      src="./src/images/instagram.svg"
-                      alt="instagram"
-                  /></a>
+                    ><svg class="social-networks-icon">
+                      <use
+                        href="./src/images/social-networks.svg#icon-instagram"
+                      />
+                    </svg>
+                  </a>
                 </li>
                 <li class="social-networks-item">
                   <a
                     class="social-networks-link"
                     href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
-                    ><img
-                      class="social-networks-img"
-                      src="./src/images/twitter.svg"
-                      alt="twitter"
-                  /></a>
+                    ><svg class="social-networks-icon">
+                      <use
+                        href="./src/images/social-networks.svg#icon-twitter"
+                      />
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -590,9 +593,35 @@
               <li class="contact-item">
                 <a class="contact-link" href="#">+621987463</a>
               </li>
+              <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <li class="contact-item">
-                <a class="contact-link" href="#">M Building, No.10 A</a>
+                <button class="contact-link" data-modal-open>
+                  M Building, No.10 A
+                </button>
               </li>
+              <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                  <button class="btn-close" data-modal-close>
+                    <img src="./src/images/xmark.svg" alt="X" />
+                  </button>
+                  <h2 class="modal-title">M Building, No.10 A</h2>
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3055.070107502422!2d11.5595049915803!3d48.12112608960903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddfd88ba2d8a9%3A0x30b0743654c3a0a!2sPapazofs%207%20Seas%20GmbH!5e0!3m2!1sru!2sua!4v1749932190592!5m2!1sru!2sua"
+                    width="572"
+                    height="248"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                  <a
+                    class="modal-link"
+                    href="https://www.google.com/maps/place/Papazofs+7+Seas+GmbH/@48.1211261,11.559505,16.8z/data=!4m6!3m5!1s0x479ddfd88ba2d8a9:0x30b0743654c3a0a!8m2!3d48.119072!4d11.5566767!16s%2Fg%2F11gvfbc6nb?hl=ru&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+                    >View Map</a
+                  >
+                </div>
+              </div>
+              <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
               <li class="contact-item">
                 <a class="contact-link" href="#">antools@awesome.com</a>
               </li>
@@ -626,5 +655,6 @@
         </div>
       </div>
     </footer>
+    <script src="./src/js/index.js" type="module"></script>
   </body>
 </html>

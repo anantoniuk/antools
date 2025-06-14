@@ -20,6 +20,8 @@ button {
   color: inherit;
   font-size: inherit;
   font-family: inherit;
+
+  background-color: transparent;
 }
 a {
   text-decoration: none;

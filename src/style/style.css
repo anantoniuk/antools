@@ -188,6 +188,14 @@ body {
 .social-networks-item:hover {
   opacity: 0.6;
 }
+.social-networks-link {
+  padding: 11px;
+}
+.social-networks-icon {
+  fill: var(--colorTitle);
+  width: 34px;
+  height: 34px;
+}
 .tools {
   padding-top: 200px;
 }
@@ -568,4 +576,59 @@ body {
 .categories-link:hover,
 .company-link:hover {
   opacity: 0.5;
+}
+.backdrop {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.315);
+  inset: 0;
+}
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.modal {
+  background-color: #2c353d;
+  background-image: linear-gradient(
+    to top right,
+    #2c353d 0% 55%,
+    rgba(255, 110, 48, 0.65) 85% 100%
+  );
+  border-radius: 15px;
+  position: absolute;
+  min-width: 400px;
+  max-width: 612px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  transition: 0.5s;
+}
+.modal:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.568);
+}
+.btn-close {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}
+.modal-title {
+  color: var(--colorTextLink);
+}
+.modal-link {
+  color: var(--colorAccent);
+  padding: 13px 38px;
+  outline: 1px solid var(--colorBorder);
+  border-radius: 8px;
+}
+.modal-link:hover {
+  background-color: var(--colorAccent);
+  outline: 1px solid transparent;
+  color: var(--backgroundColor);
+}
+.no-scroll {
+  overflow: hidden;
 }
