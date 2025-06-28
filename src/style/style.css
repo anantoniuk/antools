@@ -11,6 +11,9 @@
   --backgroundColorSecond: #283036;
   --colorBorder: rgba(255, 255, 255, 0.1);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--backgroundColor);
   font-family: var(--textPrimary);
@@ -27,6 +30,14 @@ body {
 }
 .header {
   padding-top: 26px;
+
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: var(--backgroundColor);
+  min-height: 100px;
 }
 .logo {
   font-weight: 600;
@@ -81,6 +92,7 @@ body {
 .action-link {
   font-weight: 600;
   color: var(--colorTitle);
+  transition: color 500ms ease;
 }
 .action-link:hover {
   color: var(--colorAccent);
@@ -92,6 +104,7 @@ body {
   border-radius: 8px;
   background-color: var(--colorAccent);
   display: inline-block;
+  transition: background-color 500ms ease, color 500ms ease;
 }
 .action-button:hover {
   background-color: transparent;
@@ -102,7 +115,7 @@ body {
   background-image: url(../images/illustration.svg);
   background-repeat: no-repeat;
   background-position: right bottom;
-  padding-top: 105px;
+  padding-top: 175px;
 }
 .hero-body {
   display: flex;
@@ -136,9 +149,10 @@ body {
   border-radius: 15px;
   padding: 8px 11px 8px 19px;
   max-width: 498px;
-  transition: 0.5s;
+  transition: background-color 1s ease, box-shadow 1s ease;
 }
 .hero-form:hover {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 5px var(--backgroundColorSecond);
 }
@@ -173,10 +187,15 @@ body {
   border-radius: 8px;
   background-color: var(--colorAccent);
   display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 .hero-button:hover {
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
   background-color: transparent;
-  color: var(--colorTextLink);
   outline: 1px solid var(--colorAccent);
   color: var(--colorAccent);
 }
@@ -334,6 +353,9 @@ body {
   border-radius: 8px;
   background-color: var(--backgroundColor);
   display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
 }
 .app-content > .app-link:hover {
   background-color: transparent;
@@ -348,6 +370,9 @@ body {
   outline: 1px solid var(--colorBorder);
   border-radius: 8px;
   display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 .tools-link:hover {
   background-color: var(--colorAccent);
@@ -421,6 +446,9 @@ body {
   border-radius: 8px;
   background-color: var(--colorAccent);
   display: inline-block;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 .new-tools-button:hover {
   background-color: transparent;
@@ -495,9 +523,10 @@ body {
   border-radius: 15px;
   padding: 8px 12px 8px 24px;
   max-width: 550px;
-  transition: 0.5s;
+  transition: background-color 1s ease, box-shadow 1s ease;
 }
 .registration-form:hover {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
   background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 10px 5px var(--backgroundColorSecond);
 }
@@ -516,8 +545,14 @@ body {
   background-color: var(--colorAccent);
   padding: 12px 36px;
   border-radius: 8px;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 .registration-button:hover {
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
   background-color: transparent;
   color: var(--colorTextLink);
   outline: 1px solid var(--colorAccent);
