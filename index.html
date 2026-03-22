@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -19,8 +19,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- ====== -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- link -->
     <link rel="stylesheet" href="./src/style/reset.css" />
     <!-- link -->
@@ -44,13 +42,15 @@
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item">
-              <a class="nav-link categories-menu" href="#">Categories</a>
-              <a class="categories-menu-chevron" href="#"
-                ><img
-                  class="img-chevron"
-                  src="./src/images/chevron-down.svg"
-                  alt="chevron down"
-              /></a>
+              <div class="categories-meta">
+                <a class="nav-link categories-menu" href="#">Categories</a>
+                <a class="categories-menu-chevron" href="#"
+                  ><img
+                    class="img-chevron"
+                    src="./src/images/chevron-down.svg"
+                    alt="chevron down"
+                /></a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#collection">My Collections</a>
@@ -354,11 +354,7 @@
         </div>
       </section>
       <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~section-3~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-      <section
-        class="brand"
-        data-aos="fade-up"
-        data-aos-anchor-placement="center-center"
-      >
+      <section class="brand">
         <div class="container brand-container">
           <h2 class="brand-title" hidden>brand</h2>
           <p class="brand-text">Trusted more than 150+ brand</p>
@@ -684,9 +680,5 @@
       </div>
     </footer>
     <script src="./src/js/index.js" type="module"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
